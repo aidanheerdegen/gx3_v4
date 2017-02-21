@@ -14,8 +14,6 @@
     diagfreq       = 24
     diag_type      = 'stdout'
     history_dir    = './history/'
-    latpnt         =  90., -65.
-    lonpnt         =   0., -45.
 /
 
 &grid_nml

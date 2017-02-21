@@ -21,12 +21,12 @@
   , lonpnt(1)      =   0.
   , latpnt(2)      = -65.
   , lonpnt(2)      = -45.
-  , dbug           = .false.
+  , dbug           = .true.
   , histfreq       = 'm','x','x','x','x'
   , histfreq_n     =  1 , 1 , 1 , 1 , 1
   , hist_avg       = .true.
-  , history_dir    = './history/'
   , write_ic       = .true.
+  , history_dir    = './history/'
 /
 
 &grid_nml

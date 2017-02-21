@@ -23,7 +23,6 @@
     lonpnt(2)      = -45.
     dbug           = .true.
     histfreq       = 'm','x','x','x','x'
-    histfreq_n     =  1 , 1 , 1 , 1 , 1
     history_dir    = './history/'
 /
 

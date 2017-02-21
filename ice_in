@@ -24,8 +24,6 @@
   , dbug           = .true.
   , histfreq       = 'm','x','x','x','x'
   , histfreq_n     =  1 , 1 , 1 , 1 , 1
-  , hist_avg       = .true.
-  , write_ic       = .true.
   , history_dir    = './history/'
 /
 

@@ -21,8 +21,8 @@
     lonpnt(1)      =   0.
     latpnt(2)      = -65.
     lonpnt(2)      = -45.
-    dbug           = .true.
     history_dir    = './history/'
+    dbug           = .true.
 /
 
 &grid_nml

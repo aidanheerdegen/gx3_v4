@@ -7,7 +7,6 @@
   , runtype        = 'initial'
   , ice_ic         = './iced_gx3_v5.nc'
   , restart        = .false.
-  , lcdf64         = .false.
   , restart_dir    = './restart/'
   , restart_file   = 'iced'
   , pointer_file   = './restart/ice.restart_file'

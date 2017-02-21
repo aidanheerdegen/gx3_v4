@@ -12,7 +12,6 @@
   , pointer_file   = './restart/ice.restart_file'
   , dumpfreq       = 'y'
   , dumpfreq_n     = 1
-  , dump_last      = .true.
   , diagfreq       = 24
   , diag_type      = 'stdout'
   , diag_file      = 'ice_diag.d'

@@ -7,7 +7,6 @@
   , runtype        = 'initial'
   , ice_ic         = './iced_gx3_v5.nc'
   , restart        = .false.
-  , restart_ext    = .false.
   , restart_format = 'nc'
   , lcdf64         = .false.
   , restart_dir    = './restart/'

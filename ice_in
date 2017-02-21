@@ -1,3 +1,12 @@
+
+&grid_nml
+    grid_format  = 'bin'
+    grid_type    = 'displaced_pole'
+    grid_file    = 'grid'
+    kmt_file     = 'kmt'
+    kcatbound    = 0
+/
+
 &setup_nml
     days_per_year  = 365
     year_init      = 1997
@@ -14,14 +23,6 @@
     diagfreq       = 24
     diag_type      = 'stdout'
     history_dir    = './history/'
-/
-
-&grid_nml
-    grid_format  = 'bin'
-    grid_type    = 'displaced_pole'
-    grid_file    = 'grid'
-    kmt_file     = 'kmt'
-    kcatbound    = 0
 /
 
 &domain_nml

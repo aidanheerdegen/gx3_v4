@@ -358,3 +358,59 @@
   , f_Cdn_ocn      = 'x'
 /
 
+
+&ice_nml
+    kitd            = 1
+  , kdyn            = 1
+  , ndte            = 120
+  , kstrength       = 1
+  , krdg_partic     = 1
+  , krdg_redist     = 1
+  , mu_rdg          = 3
+  , advection       = 'remap'
+  , heat_capacity   = .true.
+  , conduct         = 'bubbly'
+  , shortwave       = 'default'
+  , albedo_type     = 'default'
+  , albicev         = 0.86
+  , albicei         = 0.44
+  , albsnowv        = 0.98
+  , albsnowi        = 0.70
+  , ahmax           = 0.1
+  , snowpatch       = 0.01
+  , dT_mlt          = 1.0
+  , dalb_mlt        = -0.02
+  , awtvdr          = 0.00318
+  , awtidr          = 0.00182
+  , awtvdf          = 0.63282
+  , awtidf          = 0.36218
+  , R_ice           = 0.0
+  , R_pnd           = 0.0
+  , R_snw           = 0.0
+  , atmbndy         = 'default'
+  , fyear_init      = 0001
+  , ycycle          = 1
+  , atm_data_format = 'bin'
+  , atm_data_type   = 'ncar'
+  , atm_data_dir    = '../data/atm/gx3v2m/NCAR_bulk/'
+  , calc_strair     = .true.
+  , calc_Tsfc       = .true.
+  , precip_units    = 'mm_per_month'
+  , Tfrzpt          = 'linear_S'
+  , Tocnfrz         = -1.8
+  , ustar_min       = 0.0005
+  , cosw            = 0.96
+  , sinw            = 0.28
+  , dragio          = 0.00536
+  , chio            = 0.004
+  , update_ocn_f    = .false.
+  , oceanmixed_ice  = .false.
+  , ocn_data_format = 'bin'
+  , sss_data_type   = 'clim'
+  , sst_data_type   = 'clim'
+  , ocn_data_dir    = '../data/ocn/'
+  , oceanmixed_file = 'unknown_oceanmixed_file'
+  , restore_sst     = .false.
+  , trestore        =  180
+  , restore_ice     = .false.
+/

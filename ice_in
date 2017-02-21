@@ -8,13 +8,11 @@
     ice_ic         = './iced_gx3_v5.nc'
     restart        = .false.
     restart_dir    = './restart/'
-    restart_file   = 'iced'
     pointer_file   = './restart/ice.restart_file'
     dumpfreq       = 'y'
     dumpfreq_n     = 1
     diagfreq       = 24
     diag_type      = 'stdout'
-    diag_file      = 'ice_diag.d'
     history_dir    = './history/'
     latpnt         =  90., -65.
     lonpnt         =   0., -45.

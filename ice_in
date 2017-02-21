@@ -21,8 +21,8 @@
     dumpfreq       = 'y'
     dumpfreq_n     = 1
     diagfreq       = 24
-    diag_type      = 'stdout'
     history_dir    = './history/'
+    diag_type      = 'stdout'
 /
 
 &domain_nml

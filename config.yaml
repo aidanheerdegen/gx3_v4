@@ -1,0 +1,16 @@
+# PBS flags
+queue: express
+walltime: 0:15:00
+ncpus: 4
+mem: 1GB
+jobname: cice_test
+
+collate: False
+
+# Model config
+model: cice
+exe: cice_cice4_25x29_4p.exe 
+input: example
+
+runlog: true
+

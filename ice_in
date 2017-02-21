@@ -26,7 +26,6 @@
   , histfreq_n     =  1 , 1 , 1 , 1 , 1
   , hist_avg       = .true.
   , history_dir    = './history/'
-  , history_file   = 'iceh'
   , write_ic       = .true.
 /
 

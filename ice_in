@@ -10,7 +10,6 @@
   , ice_ic         = './iced_gx3_v5.nc'
   , restart        = .false.
   , restart_ext    = .false.
-  , use_restart_time = .true.
   , restart_format = 'nc'
   , lcdf64         = .false.
   , restart_dir    = './restart/'

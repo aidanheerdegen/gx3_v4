@@ -10,7 +10,9 @@ collate: False
 # Model config
 model: cice
 exe: cice_cice4_25x29_4p.exe 
-input: example
+input: 
+    - example
+    - NCAR_bulk
 
 runlog: true
 

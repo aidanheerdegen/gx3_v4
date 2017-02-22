@@ -214,12 +214,5 @@
   , f_fcondtopn_ai = 'x'
   , f_fmelttn_ai   = 'x'
   , f_flatn_ai     = 'x'
-  , f_apondn       = 'x'
-  , f_apond        = 'x'
-  , f_hpond        = 'x'
-  , f_ipond        = 'x'
-  , f_apond_ai     = 'x'
-  , f_hpond_ai     = 'x'
-  , f_ipond_ai     = 'x'
   , f_apeff        = 'x'
 /

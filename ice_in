@@ -57,8 +57,6 @@
   , restart_age  = .false.
   , tr_lvl       = .false.
   , restart_lvl  = .false.
-  , tr_aero      = .false.
-  , restart_aero = .false.
 /
 
 &ice_nml

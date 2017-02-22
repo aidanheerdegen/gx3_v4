@@ -80,8 +80,6 @@
   , R_ice           = 0.
   , R_pnd           = 0.
   , R_snw           = 1.5
-  , hs0             = 0.03
-  , hs1             = 0.03
   , dpscale         = 1.e-3
   , frzpnd          = 'cesm'
   , snowinfil       = .false.

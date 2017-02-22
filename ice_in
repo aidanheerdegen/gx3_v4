@@ -7,7 +7,7 @@
   , ndyn_dt        = 1
   , runtype        = 'initial'
   , ice_ic         = './iced_gx3_v4.0_kcatbound0'
-  , restart        = .false.
+  , restart        = .true.
   , restart_dir    = './restart/'
   , restart_file   = 'iced'
   , pointer_file   = './restart/ice.restart_file'

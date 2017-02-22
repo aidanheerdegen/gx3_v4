@@ -57,8 +57,6 @@
   , restart_age  = .false.
   , tr_lvl       = .false.
   , restart_lvl  = .false.
-  , tr_pond_cesm = .false.
-  , restart_pond_cesm = .false.
   , tr_pond_lvl  = .false.
   , restart_pond_lvl  = .false.
   , tr_aero      = .false.
